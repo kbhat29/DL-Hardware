@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP esp8266
+D esp8266
+$ENDCMP
+#
+$CMP rtc
+D rtc
+$ENDCMP
+#
+$CMP sdcard
+D sdcard
+$ENDCMP
+#
+#End Doc Library

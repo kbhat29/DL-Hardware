@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Personal\DLHardware\DL0.1.sch</source>
+    <date>12/28/2017 6:52:02 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DL0.1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J5">
+      <value>8pinConn</value>
+      <footprint>myFootprints:8pin_straight_conn</footprint>
+      <libsource lib="myparts" part="8pinConn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A452343</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>8pinConn</value>
+      <footprint>myFootprints:8pin_straight_conn</footprint>
+      <libsource lib="myparts" part="8pinConn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4522B8</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>8pinConn</value>
+      <footprint>myFootprints:8pin_straight_conn</footprint>
+      <libsource lib="myparts" part="8pinConn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A45221B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>8pinConn</value>
+      <footprint>myFootprints:8pin_straight_conn</footprint>
+      <libsource lib="myparts" part="8pinConn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A45216A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>8pinConn</value>
+      <footprint>myFootprints:8pin_straight_conn</footprint>
+      <libsource lib="myparts" part="8pinConn"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A451FB5</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>rtc</value>
+      <footprint>myFootprints:6pin_right-angle_conn</footprint>
+      <libsource lib="myparts" part="rtc"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A451F0A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>sdcard</value>
+      <footprint>myFootprints:6pin_right-angle_conn</footprint>
+      <libsource lib="myparts" part="sdcard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A451E89</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>esp8266</value>
+      <footprint>myFootprints:8pin(4x4)_straight_conn</footprint>
+      <libsource lib="myparts" part="esp8266"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A451D6E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="myparts" part="8pinConn">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">8pinConn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="myparts" part="esp8266">
+      <description>esp8266</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">esp8266</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RX" type="BiDi"/>
+        <pin num="2" name="IO0" type="BiDi"/>
+        <pin num="3" name="IO2" type="BiDi"/>
+        <pin num="4" name="GND" type="BiDi"/>
+        <pin num="5" name="TX" type="BiDi"/>
+        <pin num="6" name="EN" type="BiDi"/>
+        <pin num="7" name="RST" type="BiDi"/>
+        <pin num="8" name="3V3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="myparts" part="rtc">
+      <description>rtc</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">rtc</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="BiDi"/>
+        <pin num="2" name="VCC" type="BiDi"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="SCL" type="BiDi"/>
+        <pin num="5" name="NC" type="BiDi"/>
+        <pin num="6" name="NC" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="myparts" part="sdcard">
+      <description>sdcard</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">sdcard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="BiDi"/>
+        <pin num="2" name="VCC" type="BiDi"/>
+        <pin num="3" name="MISO" type="BiDi"/>
+        <pin num="4" name="MOSI" type="BiDi"/>
+        <pin num="5" name="SCK" type="BiDi"/>
+        <pin num="6" name="CS" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="myparts">
+      <uri>C:\Personal\DLHardware\myparts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="9" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="22" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="23" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="24" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="26" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="27" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="29" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="30" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="31" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="32" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="33" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="34" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="35" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="36" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J5-Pad8)">
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="38" name="Net-(J5-Pad7)">
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="39" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="40" name="Net-(J5-Pad5)">
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="41" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="42" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="43" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="44" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="53" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="57" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="58" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="60" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="61" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="62" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="63" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="64" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="65" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="66" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="67" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="68" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="69" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="70" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="71" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+  </nets>
+</export>

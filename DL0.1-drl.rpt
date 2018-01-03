@@ -1,0 +1,23 @@
+Drill report for C:\Personal\DLHardware\DL0.1.kicad_pcb
+Created on 12/31/2017 1:48:08 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DL0.1.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (15 holes)
+    T2  1.02mm  0.040"  (60 holes)
+
+    Total plated holes count 75
+
+
+Drill file 'DL0.1-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
